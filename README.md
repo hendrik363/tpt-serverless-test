@@ -16,3 +16,6 @@ show logs from aws:
 ```
 npm run serverless -- logs -f hello -t
 ```
+
+get logs in aws ui:
+  `CloudWatch` -> `Logs` -> `Insights` and select correct log group.

@@ -5,6 +5,7 @@
   "main": "handler.js",
   "scripts": {
     "start": "serverless offline",
+    "predeploy": "cd client && npm run build",
     "deploy": "serverless deploy",
     "remove": "serverless remove",
     "serverless": "serverless",

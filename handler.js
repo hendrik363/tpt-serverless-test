@@ -6,10 +6,12 @@ const path = require('path');
 const app = express()
 
 app.use(function (req, res, next) {
-  console.log(req);
-//  console.log('Time:', Date.now())
- next()
-})
+  if (req.requestContext && req.requestContext.path === "/dev") {
+      res.redirect('/dev/')
+      return;
+  }
+  next();
+});
 
 app.use(express.static(path.join(__dirname, "client", "./build")));
 

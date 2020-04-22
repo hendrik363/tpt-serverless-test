@@ -2,10 +2,15 @@
 
 const serverless = require('serverless-http');
 const express = require('express')
+const path = require('path');
 const app = express()
 
-app.get('/', function (req, res) {
-  res.send('Hello World!')
+app.use(function (req, res, next) {
+  console.log(req);
+//  console.log('Time:', Date.now())
+ next()
 })
+
+app.use(express.static(path.join(__dirname, "client", "./build")));
 
 module.exports.handler = serverless(app);

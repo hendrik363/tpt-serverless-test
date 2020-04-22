@@ -12,5 +12,10 @@ functions:
       - http: ANY /
       - http: 'ANY {proxy+}'
 
+package:
+  exclude:
+    - client/**
+    - '!client/build/**'
+
 plugins:
   - serverless-offline

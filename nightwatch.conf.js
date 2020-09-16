@@ -16,7 +16,10 @@ module.exports = {
       launch_url: 'https://nightwatchjs.org',
 
       desiredCapabilities: {
-        browserName : 'chrome'
+        browserName : 'chrome',
+        'chromeOptions' : {
+          'args': ['--headless']
+        },
       },
     },
   },

@@ -2,3 +2,4 @@ Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-ref
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
+[1600219768.604][WARNING]: Timed out connecting to Chrome, retrying...

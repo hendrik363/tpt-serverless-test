@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="visualtest"
+    errors="0" failures="1" hostname="" id="" package="visualtest" skipped="0"
+    tests="1" time="58.30" timestamp="">
+  
+    <testcase name="Test" classname="visualtest" time="58.30" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;#answer&gt; contains text &#39;true&#39; in 5000ms - expected &#34;contains text &#39;true&#39;&#34; but got: &#34;does not contain &#39;true&#39;&#34; (5183ms)">    at Object.Test (D:\Kodutööd\tpt-serverless\nightwatch_test\visualtest.js:115:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
